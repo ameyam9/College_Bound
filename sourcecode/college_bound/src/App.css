@@ -1,5 +1,18 @@
 .carousel {
-    width:500px;
-    height:500px;
+    width:1000px;
+    height:1000px;
     margin: auto;
   }
+  .navbar {
+    background-color: #C0DDE7;
+    font-family: Arial;
+  }
+  
+  .navbar a {
+    font-size: 20px;
+    color: #3B6280;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+  }
+  
