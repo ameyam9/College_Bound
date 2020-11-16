@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import NavBar from "./NavBar";
-import Carousel from "./Carousel"
+import ArticleCarousel from "./ArticleCarousel"
 
 function App() {
   return (
