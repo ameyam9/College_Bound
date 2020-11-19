@@ -1,10 +1,7 @@
-import NavBar from "../NavBar";
 import "../App.css";
 function FAFSA() {
   return (
-    <div className="FAFSA">
-      <NavBar />
-    </div>
+    <div className="FAFSA"></div>
   );
 }
-export default  FAFSA;
+export default FAFSA;

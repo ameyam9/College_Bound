@@ -1,10 +1,7 @@
-import NavBar from "../NavBar";
 import "../App.css";
 function HowToFindScholarships() {
   return (
-    <div className="HowToFindScholarships">
-      <NavBar />
-    </div>
+    <div className="HowToFindScholarships"></div>
   );
 }
 export default HowToFindScholarships;

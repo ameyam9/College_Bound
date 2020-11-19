@@ -1,10 +1,7 @@
-import NavBar from "../NavBar";
 import "../App.css";
 function PsychologicalSupport() {
   return (
-    <div className="PsychologicalSupport">
-      <NavBar />
-    </div>
+    <div className="PsychologicalSupport"></div>
   );
 }
 export default PsychologicalSupport;

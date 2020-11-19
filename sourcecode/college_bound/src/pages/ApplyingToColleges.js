@@ -1,10 +1,7 @@
-import NavBar from "../NavBar";
 import "../App.css";
 function ApplyingToColleges() {
   return (
-    <div className="ApplyingToColleges">
-      <NavBar />
-    </div>
+    <div className="ApplyingToColleges"></div>
   );
 }
 export default ApplyingToColleges;

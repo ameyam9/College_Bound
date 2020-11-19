@@ -1,10 +1,7 @@
-import NavBar from "../NavBar";
 import "../App.css";
 function CommonApplication() {
   return (
-    <div className="CommonApplication">
-      <NavBar />
-    </div>
+    <div className="CommonApplication"></div>
   );
 }
-export default  CommonApplication;
+export default CommonApplication;

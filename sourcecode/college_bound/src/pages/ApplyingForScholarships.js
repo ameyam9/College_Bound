@@ -1,10 +1,7 @@
-import NavBar from "../NavBar";
 import "../App.css";
 function ApplyingForScholarships() {
   return (
-    <div className="ApplyingForScholarships">
-      <NavBar />
-    </div>
+    <div className="ApplyingForScholarships"></div>
   );
 }
 export default ApplyingForScholarships;

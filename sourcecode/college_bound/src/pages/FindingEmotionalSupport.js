@@ -1,10 +1,7 @@
-import NavBar from "../NavBar";
 import "../App.css";
 function FindingEmotionalSupport() {
   return (
-    <div className="FindingEmotionalSupport">
-      <NavBar />
-    </div>
+    <div className="FindingEmotionalSupport"></div>
   );
 }
 export default FindingEmotionalSupport;

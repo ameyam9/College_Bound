@@ -1,10 +1,7 @@
-import NavBar from "../NavBar";
 import "../App.css";
 function Loans() {
   return (
-    <div className="Loans">
-      <NavBar />
-    </div>
+    <div className="Loans"></div>
   );
 }
 export default Loans;

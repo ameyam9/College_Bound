@@ -1,10 +1,7 @@
-import NavBar from "../NavBar";
 import "../App.css";
 function SATvsACT() {
   return (
-    <div className="SATvsACT">
-      <NavBar />
-    </div>
+    <div className="SATvsACT"></div>
   );
 }
 export default SATvsACT;
