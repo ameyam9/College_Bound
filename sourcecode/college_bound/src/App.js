@@ -25,9 +25,9 @@ import FindingResources from "./pages/FindingResources";
 function App() {
   return (
     <div className="App">
-      <NavBar />
       <container className="routes">
         <Router>
+          <NavBar />
           <Switch>
             <Route exact path="/" component={HomePage} />
             <Route exact path="/choosing_colleges_and_degrees" component={ChoosingCollegesandDegrees} />

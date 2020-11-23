@@ -51,13 +51,13 @@ function NavBar() {
                   <Link className="nav-link" to="/applying_to_colleges"> About Applying to Colleges </Link>
                 </NavDropdown.Item>
                 <NavDropdown.Item>
-                  <Link className="nav-link" to="/common_application"> Common Application</Link>
+                  <Link className="nav-link" to="/common_application"> Common Application </Link>
                 </NavDropdown.Item>
                 <NavDropdown.Item>
-                  <Link className="nav-link" to="/public_schools_by_state">Public Schools By State</Link>
+                  <Link className="nav-link" to="/public_schools_by_state"> Public Schools By State </Link>
                 </NavDropdown.Item>
                 <NavDropdown.Item>
-                  <Link className="nav-link" to="/specific_schools">Specific School</Link>
+                  <Link className="nav-link" to="/specific_schools"> Specific School </Link>
                 </NavDropdown.Item>
               </NavDropdown>
 
@@ -66,13 +66,13 @@ function NavBar() {
                 id="collasible-nav-dropdown"
               >
                 <NavDropdown.Item>
-                  <Link className="nav-link" to="/applying_for_scholarships">About Applying for Scholarships </Link>
+                  <Link className="nav-link" to="/applying_for_scholarships"> About Applying for Scholarships </Link>
                 </NavDropdown.Item>
                 <NavDropdown.Item>
-                  <Link className="nav-link" to="/how_to_find_scholarships">How to Find Scholarships</Link>
+                  <Link className="nav-link" to="/how_to_find_scholarships"> How to Find Scholarships </Link>
                 </NavDropdown.Item>
                 <NavDropdown.Item>
-                  <Link className="nav-link" to="/scholarships_by_school">Scholarships by School</Link>
+                  <Link className="nav-link" to="/scholarships_by_school"> Scholarships by School </Link>
                 </NavDropdown.Item>
               </NavDropdown>
 
@@ -81,16 +81,16 @@ function NavBar() {
                 id="collasible-nav-dropdown"
               >
                 <NavDropdown.Item>
-                  <Link className="nav-link" to="/financing_your_education">About Financing your Education</Link>
+                  <Link className="nav-link" to="/financing_your_education"> About Financing your Education </Link>
                 </NavDropdown.Item>
                 <NavDropdown.Item>
-                  <Link className="nav-link" to="/loans">Loans</Link>
+                  <Link className="nav-link" to="/loans"> Loans </Link>
                 </NavDropdown.Item>
                 <NavDropdown.Item>
-                  <Link className="nav-link" to="/fafsa">FAFSA</Link>
+                  <Link className="nav-link" to="/fafsa"> FAFSA </Link>
                 </NavDropdown.Item>
                 <NavDropdown.Item>
-                  <Link className="nav-link" to="/private_vs_public_loans">Private vs Public Loans</Link>
+                  <Link className="nav-link" to="/private_vs_public_loans"> Private vs Public Loans </Link>
                 </NavDropdown.Item>
               </NavDropdown>
 
@@ -99,16 +99,16 @@ function NavBar() {
                 id="collasible-nav-dropdown"
               >
                 <NavDropdown.Item>
-                  <Link className="nav-link" to="/finding_emotional_support">About Finding Emotional Support</Link>
+                  <Link className="nav-link" to="/finding_emotional_support"> About Finding Emotional Support</Link>
                 </NavDropdown.Item>
                 <NavDropdown.Item>
-                  <Link className="nav-link" to="/psychological_support">Psychological Support </Link>
+                  <Link className="nav-link" to="/psychological_support"> Psychological Support </Link>
                 </NavDropdown.Item>
                 <NavDropdown.Item>
-                  <Link className="nav-link" to="/self_care">Self-Care</Link>
+                  <Link className="nav-link" to="/self_care"> Self-Care </Link>
                 </NavDropdown.Item>
                 <NavDropdown.Item>
-                  <Link className="nav-link" to="/finding_resources">Finding Resources</Link>
+                  <Link className="nav-link" to="/finding_resources"> Finding Resources </Link>
                 </NavDropdown.Item>
               </NavDropdown>
             </Nav>
