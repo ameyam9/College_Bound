@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;700&display=swap');
 
+.App{
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+.navbar-item:hover{
+  background-color: #C0DDE7;
+}
+
 .carousel {
     width:1000px;
     height:2500px;
@@ -72,3 +81,4 @@
   #collasible-nav-dropdown {
     margin-right: 50px;
   }
+
