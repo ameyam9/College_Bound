@@ -1,8 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;700&display=swap');
+
 .carousel {
     width:1000px;
-    height:1000px;
+    height:2500px;
     margin: auto;
   }
+
+  .carousel-control {
+    position: absolute;
+    top: 50%; 
+    z-index: 5;
+    display: inline-block;
+    }
+    
+   .carousel-control.left, .carousel-control.right {
+      background: none;
+      color: red;
+      border: none;
+   } 
+    
   .navbar {
     background-color: #C0DDE7;
     font-family: Arial;
@@ -16,3 +32,41 @@
     text-decoration: none;
   }
   
+  .header {
+    max-width: 100%;
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .ArticleCarousel {
+    margin-top: 60px;
+  }
+
+  .page_header{
+    display: block;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
+  h1 {
+    margin-top: 0px; 
+    padding-top: -50px;
+    margin-left: 200px;
+    margin-right: auto;
+    font-weight: bold;
+  }
+
+  h2{
+    margin-left: 250px;
+  }
+
+  p, a, h1, h3 {
+    font-family: 'Hind', sans-serif;
+  }
+
+  #collasible-nav-dropdown {
+    margin-right: 50px;
+  }

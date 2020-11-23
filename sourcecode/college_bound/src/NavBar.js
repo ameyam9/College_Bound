@@ -15,6 +15,7 @@ import { BrowserRouter as Router, Link } from "react-router-dom";
 function NavBar() {
   return (
     <div className="NavBar">
+      <img className="header" src={"/media/header.png"} />
       <Router>
         <Navbar collapseOnSelect expand="lg" bg="blue" variant="blue">
           <Navbar.Brand>
