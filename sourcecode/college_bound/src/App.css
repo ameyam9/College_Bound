@@ -21,7 +21,7 @@
     
   .navbar {
     background-color: #C0DDE7;
-    font-family: Arial;
+    max-width: 100%;
   }
   
   .navbar a {
