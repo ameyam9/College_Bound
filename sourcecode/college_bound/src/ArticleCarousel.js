@@ -36,7 +36,7 @@ function ArticleCarousel() {
                     <Carousel.Caption>
                         <h3 id="covid_article">
                             How Colleges are Handling COVID
-                </h3>
+                        </h3>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

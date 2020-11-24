@@ -23,7 +23,7 @@
 }
 
 #collasible-nav-dropdown {
-  margin-right: 50px;
+  margin-right: 4vh;
 }
 
 .ArticleCarousel {
@@ -34,7 +34,7 @@
     width:1000px;
     height:2500px;
     margin: auto;
-  }
+}
 
 .carousel-control {
   position: absolute;
@@ -56,13 +56,10 @@
   font-weight: bold;
 }
 
-#mental_health_article {
-  margin-left: -400px;
-  margin-top: 600px;
-}
-
-#college_life_article {
-  
+#mental_health_article, #college_life_article {
+  margin-left: -600px;
+  margin-top: 750px;
+  margin-bottom: 0px;
 }
 
 #covid_article {
