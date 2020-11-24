@@ -10,7 +10,7 @@
   max-width: 100%;
 }
 
-.navbar-item:hover{
+.navbar-item:hover {
   background-color: #C0DDE7;
 }
 
@@ -31,8 +31,8 @@
 }
 
 .carousel {
-    width:1000px;
-    margin: auto;
+  width: 1000px;
+  margin: auto;
 }
 
 .ArticleCarousel h3 {
@@ -41,41 +41,30 @@
 }
 
 .carousel-indicators li {
-	display: inline-block;
-	width: 20px;
-	height: 20px;
-	margin: 10px;
-	text-indent: 0;
-	cursor: pointer;
-	border: none;
-	border-radius: 50%;
-	background-color: white;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  text-indent: 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  background-color: white;
 }
 
 .carousel-indicators .active {
-	width: 20px;
-	height: 20px;
+  width: 20px;
+  height: 20px;
   margin: 10px;
   border-radius: 50%;
-	background-color: white;
+  background-color: white;
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   height: 40px;
   width: 40px;
-  border: 1px solid black;
-  border-radius: 100%;
-  border-style:dashed;
 
-
-
-  /* 
-  outline: black;
-  background-size: 100%, 100%;
-  border-radius: 50%;
-  border: 1px solid black;
-  background-image: none; */
 }
 
 #mental_health_article {
@@ -98,39 +87,46 @@
   margin-bottom: 0px;
   width: 100%;
 }
-    
+
 .header {
-   max-width: 100%;
-   padding: 0;
-   display: block;
-   margin: 0 auto;
+  max-width: 100%;
+  padding: 0;
+  display: block;
+  margin: 0 auto;
 }
 
-.page_header{
-   display: block;
-   margin-top: 60px;
-   margin-left: auto;
-   margin-right: auto;
-   width: 80%;
+.page_header {
+  display: block;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 
 h1 {
-   margin-top: 0px; 
-   padding-top: -50px;
-   margin-left: 20vh;
-   margin-right: auto;
-   font-weight: bold;
+  margin-top: 0px;
+  padding-top: -50px;
+  margin-left: 20vh;
+  margin-right: auto;
+  font-weight: bold;
 }
 
 p {
-   margin-left: 25vh;
-   margin-right: 25vh;
-   font-size: 25px;
+  margin-left: 25vh;
+  margin-right: 25vh;
+  font-size: 25px;
 }
 
-p, a, h1, h3 {
-   font-family: 'Hind', sans-serif;
+p,
+a,
+h1,
+h3,
+h5 {
+  font-family: 'Hind', sans-serif;
 }
 
+.Footer {
+  background-color: #C0DDE7;
+}
 
-
+.Footer h5 {}

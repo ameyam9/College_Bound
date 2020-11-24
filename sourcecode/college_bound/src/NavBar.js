@@ -10,6 +10,9 @@ import { BrowserRouter as Route, Link } from "react-router-dom";
  * This is installing the react-router-dom module.
  * npm install -S react-router-dom
  * npm install react-router-dom --save
+ * npm install bootstrap
+ * 
+ * npm install mdbreact
  */
 
 function NavBar() {

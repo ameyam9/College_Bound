@@ -3,6 +3,7 @@ import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NavBar from "./NavBar"
 import Footer from "./Footer";
+import About from "./About";
 import HomePage from "./pages/HomePage"
 import ChoosingCollegesandDegrees from "./pages/ChoosingCollegesandDegrees";
 import ChoosingaCollege from "./pages/ChoosingaCollege";
@@ -57,10 +58,11 @@ function App() {
             <Route exact path="/covid_colleges_article" component={CovidArticle} />
             <Route exact path="/mental_health_zoom_covid_article" component={MentalHealthArticle} />
             <Route exact path="/campus_life_article" component={CampusLifeArticle} />
+            <Route exact path="/about" component={About} />
           </Switch>
+          <Footer />
         </Router>
       </container>
-      <Footer />
     </div>
   );
 }
