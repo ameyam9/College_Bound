@@ -1,12 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;700&display=swap');
 
-.App{
+.App {
   overflow-x: hidden;
+  max-width: 100%;
+}
+
+.navbar {
+  background-color: #C0DDE7;
   max-width: 100%;
 }
 
 .navbar-item:hover{
   background-color: #C0DDE7;
+}
+
+.navbar a {
+  font-size: 20px;
+  color: #3B6280;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+#collasible-nav-dropdown {
+  margin-right: 50px;
+}
+
+.ArticleCarousel {
+  margin-top: 60px;
 }
 
 .carousel {
@@ -15,70 +36,71 @@
     margin: auto;
   }
 
-  .carousel-control {
-    position: absolute;
-    top: 50%; 
-    z-index: 5;
-    display: inline-block;
-    }
+.carousel-control {
+  position: absolute;
+  top: 50%; 
+  z-index: 5;
+  display: inline-block;
+}
     
-   .carousel-control.left, .carousel-control.right {
-      background: none;
-      color: red;
-      border: none;
-   } 
+.carousel-control.left, .carousel-control.right {
+   background: black;
+   color: red;
+   border: none;
+   margin-top: 0px;
+   margin-left: 100px;
+} 
+
+.ArticleCarousel h3 {
+  text-align: center;
+  font-weight: bold;
+}
+
+#mental_health_article {
+  margin-left: -400px;
+  margin-top: 600px;
+}
+
+#college_life_article {
+  
+}
+
+#covid_article {
+  
+}
     
-  .navbar {
-    background-color: #C0DDE7;
-    max-width: 100%;
-  }
-  
-  .navbar a {
-    font-size: 20px;
-    color: #3B6280;
-    text-align: center;
-    padding: 10px 16px;
-    text-decoration: none;
-  }
-  
-  .header {
-    max-width: 100%;
-    padding: 0;
-    display: block;
-    margin: 0 auto;
-  }
+.header {
+   max-width: 100%;
+   padding: 0;
+   display: block;
+   margin: 0 auto;
+}
 
-  .ArticleCarousel {
-    margin-top: 60px;
-  }
+.page_header{
+   display: block;
+   margin-top: 60px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 80%;
+}
 
-  .page_header{
-    display: block;
-    margin-top: 60px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-  }
+h1 {
+   margin-top: 0px; 
+   padding-top: -50px;
+   margin-left: 20vh;
+   margin-right: auto;
+   font-weight: bold;
+}
 
-  h1 {
-    margin-top: 0px; 
-    padding-top: -50px;
-    margin-left: 20vh;
-    margin-right: auto;
-    font-weight: bold;
-  }
+p {
+   margin-left: 25vh;
+   margin-right: 25vh;
+   font-size: 25px;
+}
 
-  p {
-    margin-left: 25vh;
-    margin-right: 25vh;
-    font-size: 25px;
-  }
+p, a, h1, h3 {
+   font-family: 'Hind', sans-serif;
+}
 
-  p, a, h1, h3 {
-    font-family: 'Hind', sans-serif;
-  }
 
-  #collasible-nav-dropdown {
-    margin-right: 50px;
-  }
 

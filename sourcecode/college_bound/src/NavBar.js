@@ -3,7 +3,7 @@ import "./App.css";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { BrowserRouter as Route, Link } from "react-router-dom";
 
 /**
  * Need to run this on command line to get router to work on page.
@@ -15,7 +15,7 @@ import { BrowserRouter as Router, Link } from "react-router-dom";
 function NavBar() {
   return (
     <div className="NavBar">
-      <img className="header" src={"/media/header.png"} />
+      <img className="header" src={"/media/header.png"} alt="students waving" />
       <Navbar collapseOnSelect expand="lg" bg="blue" variant="blue">
         <Navbar.Brand>
           <Link className="nav-link" to="/">
