@@ -127,6 +127,19 @@ h5 {
 
 .Footer {
   background-color: #C0DDE7;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  padding: 10px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 
-.Footer h5 {}
+.Footer li {
+  list-style: none;
+}
+
+.Footer a:link {
+  text-decoration: none;
+}
