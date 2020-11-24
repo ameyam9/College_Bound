@@ -32,38 +32,71 @@
 
 .carousel {
     width:1000px;
-    height:2500px;
     margin: auto;
 }
 
-.carousel-control {
-  position: absolute;
-  top: 50%; 
-  z-index: 5;
-  display: inline-block;
-}
-    
-.carousel-control.left, .carousel-control.right {
-   background: black;
-   color: red;
-   border: none;
-   margin-top: 0px;
-   margin-left: 100px;
-} 
-
 .ArticleCarousel h3 {
-  text-align: center;
   font-weight: bold;
+  text-shadow: -1px -1px black;
 }
 
-#mental_health_article, #college_life_article {
-  margin-left: -600px;
-  margin-top: 750px;
-  margin-bottom: 0px;
+.carousel-indicators li {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin: 10px;
+	text-indent: 0;
+	cursor: pointer;
+	border: none;
+	border-radius: 50%;
+	background-color: white;
+}
+
+.carousel-indicators .active {
+	width: 20px;
+	height: 20px;
+  margin: 10px;
+  border-radius: 50%;
+	background-color: white;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+  border-radius: 100%;
+  border-style:dashed;
+
+
+
+  /* 
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none; */
+}
+
+#mental_health_article {
+  text-align: left;
+  margin-left: -120px;
+  margin-top: 800px;
+  margin-bottom: -30px;
+  width: 65%;
+}
+
+#college_life_article {
+  margin-left: -630px;
+  margin-top: 800px;
+  margin-bottom: -30px;
 }
 
 #covid_article {
-  
+  margin-left: 250px;
+  margin-top: -350px;
+  margin-bottom: 0px;
+  width: 100%;
 }
     
 .header {

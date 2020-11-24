@@ -2,6 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NavBar from "./NavBar"
+import Footer from "./Footer";
 import HomePage from "./pages/HomePage"
 import ChoosingCollegesandDegrees from "./pages/ChoosingCollegesandDegrees";
 import ChoosingaCollege from "./pages/ChoosingaCollege";
@@ -22,6 +23,9 @@ import FindingEmotionalSupport from "./pages/FindingEmotionalSupport";
 import PsychologicalSupport from "./pages/PsychologicalSupport";
 import SelfCare from "./pages/SelfCare"
 import FindingResources from "./pages/FindingResources";
+import CovidArticle from "./pages/CovidArticle";
+import MentalHealthArticle from "./pages/MentalHealthArticle";
+import CampusLifeArticle from "./pages/CampusLifeArticle";
 
 function App() {
   return (
@@ -50,9 +54,13 @@ function App() {
             <Route exact path="/psychological_support" component={PsychologicalSupport} />
             <Route exact path="/self_care" component={SelfCare} />
             <Route exact path="/finding_resources" component={FindingResources} />
+            <Route exact path="/covid_colleges_article" component={CovidArticle} />
+            <Route exact path="/mental_health_zoom_covid_article" component={MentalHealthArticle} />
+            <Route exact path="/campus_life_article" component={CampusLifeArticle} />
           </Switch>
         </Router>
       </container>
+      <Footer />
     </div>
   );
 }
