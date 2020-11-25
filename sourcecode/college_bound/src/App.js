@@ -27,6 +27,7 @@ import FindingResources from "./pages/FindingResources";
 import CovidArticle from "./pages/CovidArticle";
 import MentalHealthArticle from "./pages/MentalHealthArticle";
 import CampusLifeArticle from "./pages/CampusLifeArticle";
+import SearchPages from "./SearchPages";
 
 function App() {
   return (
@@ -59,6 +60,7 @@ function App() {
             <Route exact path="/mental_health_zoom_covid_article" component={MentalHealthArticle} />
             <Route exact path="/campus_life_article" component={CampusLifeArticle} />
             <Route exact path="/about" component={About} />
+            <Route exact path="/search_results" component={SearchPages} />
           </Switch>
           <Footer />
         </Router>

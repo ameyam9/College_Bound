@@ -1,6 +1,9 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import Form from "react-bootstrap/Form";
+import FormControl from "react-bootstrap/FormControl";
+import Button from "react-bootstrap/Button";
 import { BrowserRouter as Route, Link } from "react-router-dom";
 
 function Footer() {
@@ -16,6 +19,12 @@ function Footer() {
                         <a href="https://www.shutterstock.com/g/GoodStudio">Art Credit</a>
                     </Nav>
                 </Navbar.Collapse>
+                <Form inline>
+                    <FormControl type="text" placeholder="Search" className=" mr-sm-2" />
+                    <Link to="/search_results">
+                        <Button style={{ background: "#3B6280" }} type="submit">Submit</Button>
+                    </Link>
+                </Form>
             </Navbar>
         </div>
     );
