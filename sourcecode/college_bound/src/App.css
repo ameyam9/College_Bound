@@ -118,11 +118,7 @@ p {
   font-size: 25px;
 }
 
-p,
-a,
-h1,
-h3,
-h5 {
+p, a, h1, h3, h5 {
   font-family: 'Hind', sans-serif;
 }
 
@@ -137,6 +133,33 @@ h5 {
 .Footer .navbar {
   background-color: #C0DDE7;
 }
+
+.row {
+  width: 70%;
+  margin-left: 20vw;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  padding-left: -50px;
+  padding-right: -50px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.Icons p {
+  color: #6E6E6E;
+  width: 70%;
+  text-align: center;
+  margin-left: -3.5vw;
+}
+
+
 
 Button {
   color: #3B6280;

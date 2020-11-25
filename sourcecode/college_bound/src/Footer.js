@@ -21,7 +21,7 @@ function Footer() {
                 </Navbar.Collapse>
                 <Form inline>
                     <FormControl type="text" placeholder="Search" className=" mr-sm-2" />
-                    <Link to="/search_results">
+                    <Link to="/applying_for_scholarships">
                         <Button style={{ background: "#3B6280" }} type="submit">Submit</Button>
                     </Link>
                 </Form>
