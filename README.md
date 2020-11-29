@@ -1,5 +1,5 @@
 # College Bound
-<img src="./sourcecode/college_bound/public/media/header.png" width="350" title="hover text">
+<img src="./sourcecode/college_bound/public/media/header.png" width="100%" title="hover text">
 
 College Bound is a web application that aims to bridge the educational gap between first-generation college students and higher education. Despite recent improvements in accessibility in higher education, there is still more that needs to be done. This application provides plentiful information in order to make the college and financial aid application simpler.
 
