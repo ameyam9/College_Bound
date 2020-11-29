@@ -2,7 +2,7 @@ import "./App.css";
 function About() {
     return (
         <div className="About">
-            <img className="page_header" src={"/media/applying_to_colleges.png"} alt="hi" />
+            <img className="page_header" src={"/media/about_page.png"} alt="hi" />
             <h1 style={{ marginTop: 50 }}>About</h1>
             <p>College Bound is a web application that aims to bridge the educational gap between first-generation college students and higher education. Despite recent improvements in accessibility in higher education, there is still more that needs to be done. This application provides plentiful information in order to make the college and financial aid application simpler. </p>
 

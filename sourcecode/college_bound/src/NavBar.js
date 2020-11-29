@@ -5,14 +5,6 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { BrowserRouter as Route, Link } from "react-router-dom";
 
-/**
- * Need to run this on command line to get router to work on page.
- * This is installing the react-router-dom module.
- * npm install -S react-router-dom
- * npm install react-router-dom --save
- * npm install bootstrap
- */
-
 function NavBar() {
   return (
     <div className="NavBar">
