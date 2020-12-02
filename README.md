@@ -10,11 +10,32 @@ You can access the source code [here](https://github.com/krezaey/college-bound-s
 
 # Installation 
 
-Use the package manager npm to install all the necessary modules to run the project.
+If you want to run the code and start the app yourself, use the package manager npm to install all the necessary modules to run the project.
 
 ```bash
 npm install -S react-router-dom
 npm install react-router-dom --save
 npm install bootstrap
 ```
+
+# Contents
+
+Documents: <br>
+    Milestone 0: Team Contract <br>
+    Milestone 1: Preliminary Research <br>
+    Milestone 2: Design Prototypes and Design Choices <br>
+    Milestone 3: Final Coding Prototype Documentation <br>
+ <br>
+ [Source Code](https://github.com/krezaey/college-bound-sourcecode)
+
+
+# Contributors
+
+This project (from ideation, documentation, research and coding implementation) was created by: <br>
+    In alphabetical order: <br>
+        [Ameya Mellacheruvu](https://github.com/ameyam9) <br>
+        [Keziah Rezaey](https://github.com/krezaey) <br>
+        [Elise Sawan](https://github.com/esawan) <br>
+        [Salem Tesfu](https://github.com/stesfu) <br>
+
 
