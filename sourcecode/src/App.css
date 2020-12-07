@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;700&display=swap');
 
 .App {
-  overflow-x: hidden;
+  overflow: scroll;
   max-width: 100%;
 }
 
 .navbar {
   background-color: #C0DDE7;
   max-width: 100%;
+  /* position: relative; */
 }
 
 .navbar-item:hover {
@@ -15,15 +16,15 @@
 }
 
 .navbar a {
-  font-size: 20px;
+  font-size: 1.25vw;
   color: #3B6280;
   text-align: center;
   padding: 10px 16px;
   text-decoration: none;
 }
 
-#collasible-nav-dropdown {
-  margin-right: 4vh;
+#navbar_brand {
+  background-color: #C0DDE7;
 }
 
 .ArticleCarousel {
@@ -118,7 +119,11 @@ p {
   font-size: 25px;
 }
 
-p, a, h1, h3, h5 {
+p,
+a,
+h1,
+h3,
+h5 {
   font-family: 'Hind', sans-serif;
 }
 
@@ -158,8 +163,6 @@ p, a, h1, h3, h5 {
   text-align: center;
   margin-left: -3.5vw;
 }
-
-
 
 Button {
   color: #3B6280;

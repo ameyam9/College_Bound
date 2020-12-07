@@ -10,7 +10,7 @@ function NavBar() {
     <div className="NavBar">
       <img className="header" src={"/media/header.png"} alt="students waving" />
       <Navbar collapseOnSelect expand="lg" bg="blue" variant="blue">
-        <Navbar.Brand>
+        <Navbar.Brand id="navbar_brand">
           <Link className="nav-link" to="/">
             College Bound
             </Link>
