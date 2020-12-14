@@ -25,6 +25,7 @@ Documents: <br>
     Milestone 1: Preliminary Research <br>
     Milestone 2: Design Prototypes and Design Choices <br>
     Milestone 3: Final Coding Prototype Documentation <br>
+    Milestone 4: Evaluation <br>
  <br>
  [Source Code](https://github.com/krezaey/college-bound-sourcecode)
 
